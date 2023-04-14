@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #switch:checked + label {
+    background: #a445ed;
+  }
+
+  #switch:checked + label:after {
+    left: calc(100% - 4px);
+    transform: translateX(-100%);
+  }
+}
