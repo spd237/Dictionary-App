@@ -21,13 +21,13 @@ export default function PartOfSpeech() {
         <div className="flex gap-4 mt-6 items-center">
           <h3 className=" text-moderate-gray sm:text-xl">Synonyms</h3>
           <div className="flex flex-wrap">
-            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg">
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
               accomplished
             </span>
-            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg">
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
               all right
             </span>
-            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg">
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
               decent
             </span>
           </div>
@@ -35,13 +35,15 @@ export default function PartOfSpeech() {
         <div className="flex gap-4 mt-4">
           <h3 className=" text-moderate-gray sm:text-xl">Antonyms</h3>
           <div className="flex flex-wrap">
-            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg">
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
               accomplished
             </span>
-            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg">
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
               all right
             </span>
-            <span className=" text-moderate-purple font-bold ml-4">decent</span>
+            <span className=" text-moderate-purple font-bold ml-4 sm:text-lg hover:underline hover:cursor-pointer">
+              decent
+            </span>
           </div>
         </div>
       </div>

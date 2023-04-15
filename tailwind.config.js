@@ -14,6 +14,11 @@ export default {
         "border-color": "#E9E9E9",
         "border-color-dark": "#3A3A3A",
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        serif: ["Lora", "serif"],
+        mono: ["Inconsolata", "monospace"],
+      },
     },
   },
   plugins: [],

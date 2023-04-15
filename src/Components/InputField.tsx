@@ -12,6 +12,7 @@ export default function InputField() {
           focus:outline focus:outline-2 focus:outline-moderate-purple
           dark:bg-input-dark dark:text-dark-text dark:placeholder:text-dark-text"
           placeholder="Search for any word...         "
+          required
         />
       </label>
       <button className="absolute h-full w-[2rem] top-0 right-0">
