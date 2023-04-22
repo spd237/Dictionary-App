@@ -18,6 +18,7 @@ export default function Word({ word, phonetic, audio }: WordProps) {
       <button
         className="w-[3rem] h-[3rem] sm:w-[4.7rem] sm:h-[4.7rem]"
         onClick={() => audio?.play()}
+        aria-label="play audio of word"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
