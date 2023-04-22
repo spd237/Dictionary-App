@@ -5,12 +5,12 @@ import logo from "../assets/logo.svg";
 import moon from "../assets/icon-moon.svg";
 import arrow from "../assets/icon-arrow-down.svg";
 
-type headerProps = {
+interface HeaderProps {
   font: string;
   setFont: React.Dispatch<React.SetStateAction<string>>;
-};
+}
 
-export default function Header({ font, setFont }: headerProps) {
+export default function Header({ font, setFont }: HeaderProps) {
   const [theme, setTheme] = useThemeSwitch();
   const [checked, setChecked] = useLocalStorage("checked", false);
   const [fontMenuOpen, setFontMenuOpen] = useState(false);

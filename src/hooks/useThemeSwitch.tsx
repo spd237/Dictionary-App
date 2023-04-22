@@ -7,7 +7,7 @@ type UseThemeSwitchReturn = [
 ];
 
 export default function useThemeSwitch(): UseThemeSwitchReturn {
-  const [theme, setTheme] = useLocalStorage<string>("theme", "light");
+  const [theme, setTheme] = useLocalStorage("theme", "light");
 
   useEffect(() => {
     if (theme === "dark") {

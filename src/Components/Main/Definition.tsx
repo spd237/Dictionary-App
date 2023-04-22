@@ -1,10 +1,15 @@
-export default function Definition() {
+interface DefinitionProps {
+  definition: string;
+  example?: string;
+}
+
+export default function Definition({ definition, example }: DefinitionProps) {
   return (
-    <li className="dark:text-white pl-2 mb-2 sm:text-lg">
-      A set of keys used to operate a typewriter
-      <span className="text-moderate-gray block mt-3">
-        "We’re having a bit of a do on Saturday to celebrate my birthday".
-      </span>
+    <li className="dark:text-white pl-2 mb-4 sm:text-lg">
+      {definition}
+      {example && (
+        <span className="text-moderate-gray block mt-1">"{example}"</span>
+      )}
     </li>
   );
 }
